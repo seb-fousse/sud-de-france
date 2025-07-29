@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>la-bergerie</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-la-bergerie---breakfast-room">
+        <li class="text">La Bergerie - Breakfast Room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-la-bergerie---dining-room">
+        <li class="text">La Bergerie - Dining Room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-la-bergerie---driveway">
+        <li class="text">La Bergerie - Driveway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-la-bergerie---entry">
+        <li class="text">La Bergerie - Entry</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-la-bergerie---guest-bathroom">
+        <li class="text">La Bergerie - Guest Bathroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-la-bergerie---guest-bedroom">
+        <li class="text">La Bergerie - Guest Bedroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-la-bergerie---hallway">
+        <li class="text">La Bergerie - Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-la-bergerie---kids-bathroom">
+        <li class="text">La Bergerie - Kid&#39;s Bathroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-la-bergerie---kids-bedroom">
+        <li class="text">La Bergerie - Kid&#39;s Bedroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-la-bergerie---kitchen">
+        <li class="text">La Bergerie - Kitchen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-la-bergerie---living-room-2">
+        <li class="text">La Bergerie - Living Room 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-la-bergerie---living-room-1">
+        <li class="text">La Bergerie - Living Room 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-la-bergerie---main-bedroom">
+        <li class="text">La Bergerie - Main Bedroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-la-bergerie---office">
+        <li class="text">La Bergerie - Office</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-la-bergerie---patio-2">
+        <li class="text">La Bergerie - Patio 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-la-bergerie---pool-end-close">
+        <li class="text">La Bergerie - Pool End Close</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-la-bergerie---pool-end-far">
+        <li class="text">La Bergerie - Pool End Far</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-la-bergerie---pool-house">
+        <li class="text">La Bergerie - Pool House</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-la-bergerie---upstairs-landing">
+        <li class="text">La Bergerie - Upstairs Landing</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-la-bergerie---patio">
+        <li class="text">La Bergerie - Patio</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-la-bergerie---garden-1">
+        <li class="text">La Bergerie - Garden 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-la-bergerie---garden-2">
+        <li class="text">La Bergerie - Garden 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-la-bergerie---garden-stairs">
+        <li class="text">La Bergerie - Garden Stairs</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-la-bergerie---greenhouse">
+        <li class="text">La Bergerie - Greenhouse</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-la-bergerie---garden-patio">
+        <li class="text">La Bergerie - Garden Patio</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-la-bergerie---statue-1">
+        <li class="text">La Bergerie - Statue 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-la-bergerie---statue-2">
+        <li class="text">La Bergerie - Statue 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-la-bergerie---statue-3">
+        <li class="text">La Bergerie - Statue 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-la-bergerie---tennis-house">
+        <li class="text">La Bergerie - Tennis House</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-la-bergerie---tennis-court">
+        <li class="text">La Bergerie - Tennis Court</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-la-bergerie---upstairs-bathroom">
+        <li class="text">La Bergerie - Upstairs Bathroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-la-bergerie---upstairs-bedroom">
+        <li class="text">La Bergerie - Upstairs Bedroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-larbousier---basement-landing">
+        <li class="text">L&#39;Arbousier - Basement Landing</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-larbousier---cellar">
+        <li class="text">L&#39;Arbousier - Cellar</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-larbousier---dining-room">
+        <li class="text">L&#39;Arbousier - Dining Room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-larbousier---driveway-1">
+        <li class="text">L&#39;Arbousier - Driveway 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-larbousier---driveway-2">
+        <li class="text">L&#39;Arbousier - Driveway 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-larbousier---driveway-3">
+        <li class="text">L&#39;Arbousier - Driveway 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-larbousier---entry">
+        <li class="text">L&#39;Arbousier - Entry</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-larbousier---garden-1">
+        <li class="text">L&#39;Arbousier - Garden 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-larbousier---garden-2">
+        <li class="text">L&#39;Arbousier - Garden 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-larbousier---downstairs-bathroom">
+        <li class="text">L&#39;Arbousier - Downstairs Bathroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42-larbousier---downstairs-bedroom">
+        <li class="text">L&#39;Arbousier - Downstairs Bedroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43-larbousier---guest-bathroom">
+        <li class="text">L&#39;Arbousier - Guest Bathroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="44-larbousier---guest-bedroom">
+        <li class="text">L&#39;Arbousier - Guest Bedroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="45-larbousier---hallway-bathroom">
+        <li class="text">L&#39;Arbousier - Hallway Bathroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="46-larbousier---hallway">
+        <li class="text">L&#39;Arbousier - Hallway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="47-larbousier---kitchen">
+        <li class="text">L&#39;Arbousier - Kitchen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="48-larbousier---girls-bathroom">
+        <li class="text">L&#39;Arbousier - Girl&#39;s Bathroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="49-larbousier---girls-bedroom">
+        <li class="text">L&#39;Arbousier - Girl&#39;s Bedroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="50-larbousier---living-room">
+        <li class="text">L&#39;Arbousier - Living Room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="51-larbousier---main-bathroom">
+        <li class="text">L&#39;Arbousier - Main Bathroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="52-larbousier---main-bedroom">
+        <li class="text">L&#39;Arbousier - Main Bedroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="53-larbousier---patio-dining">
+        <li class="text">L&#39;Arbousier - Patio Dining</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="54-larbousier---patio-kitchen">
+        <li class="text">L&#39;Arbousier - Patio Kitchen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="55-larbousier---patio-main">
+        <li class="text">L&#39;Arbousier - Patio Main</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="56-larbousier---playroom">
+        <li class="text">L&#39;Arbousier - Playroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="57-larbousier---pool-end">
+        <li class="text">L&#39;Arbousier - Pool End</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="58-larbousier---pool-house">
+        <li class="text">L&#39;Arbousier - Pool House</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="59-larbousier---pool-path">
+        <li class="text">L&#39;Arbousier - Pool Path</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="60-larbousier---boys-bathroom">
+        <li class="text">L&#39;Arbousier - Boy&#39;s Bathroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="61-larbousier---boys-bedroom">
+        <li class="text">L&#39;Arbousier - Boy&#39;s Bedroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="62-larbousier---terrace-1-right">
+        <li class="text">L&#39;Arbousier - Terrace 1 Right</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="63-larbousier---terrace-1-left">
+        <li class="text">L&#39;Arbousier - Terrace 1 Left</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="64-larbousier---terrace-playground">
+        <li class="text">L&#39;Arbousier - Terrace Playground</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="65-larbousier---terrace-petanque">
+        <li class="text">L&#39;Arbousier - Terrace Petanque</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="66-larbousier---tv-room">
+        <li class="text">L&#39;Arbousier - TV Room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="67-larbousier---upstairs-landing">
+        <li class="text">L&#39;Arbousier - Upstairs Landing</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
